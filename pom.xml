@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+<!--
+
+          Description: This maven based project is integrated with Cucumber and TestNG framework in order to perform the testing of the Expedia Application.
+     Application Name: Expedia
+		       Author: Abhishek Prajapati 
+		   Frameworks: Cucumber Java 8 and TestNG
+
+-->
+
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.frostyaxe</groupId>
+  <artifactId>CucumberExpediaTesting</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  
+  <!-- Setting Properties Below -->
+  <properties>
+  			
+  			
+  		
+  </properties>
+
+
+	<!-- Dependencies Management -->
+	<dependencies>
+
+		<!-- Selenium Java Maven Dependency -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+
+
+		<!-- Cucumber Java 8 Maven Dependency -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java8</artifactId>
+			<version>5.6.0</version>
+		</dependency>
+
+		<!-- Cucumber PicoContainer to share basecontroller state with pages -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-picocontainer</artifactId>
+			<version>5.6.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Cucumber TestNG runs the Cucumber with TestNG runner -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>5.6.0</version>
+		</dependency>
+
+
+	</dependencies>
+  
+</project>

@@ -1,0 +1,282 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 12,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5433000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on Expedia Homepage",
+            "match": {
+              "location": "com.github.frostyaxe.cucumber.stepdefs.ExpediaFlightSearchStepDefs.\u003cinit\u003e(ExpediaFlightSearchStepDefs.java:37)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-16T09:24:06.207Z",
+        "line": 15,
+        "name": "Expedia Return Flight Search Functionality with correct data.",
+        "description": "",
+        "id": "expedia-flight-search;expedia-return-flight-search-functionality-with-correct-data.",
+        "after": [
+          {
+            "result": {
+              "duration": 932000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.github.frostyaxe.cucumber.hooks.ServiceHooks.\u003cinit\u003e(ServiceHooks.java:16)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is able to see the Expedia HomePage",
+            "match": {
+              "location": "com.github.frostyaxe.cucumber.stepdefs.ExpediaFlightSearchStepDefs.\u003cinit\u003e(ExpediaFlightSearchStepDefs.java:54)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 419000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on the Flights tab button",
+            "match": {
+              "location": "com.github.frostyaxe.cucumber.stepdefs.ExpediaFlightSearchStepDefs.\u003cinit\u003e(ExpediaFlightSearchStepDefs.java:70)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7687000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enters the required details in the form fields",
+            "match": {
+              "location": "com.github.frostyaxe.cucumber.stepdefs.ExpediaFlightSearchStepDefs.\u003cinit\u003e(ExpediaFlightSearchStepDefs.java:78)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "From",
+                  "Pune (PNQ-Lohegaon)"
+                ]
+              },
+              {
+                "cells": [
+                  "To",
+                  "Mumbai (BOM-Chhatrapati Shivaji Intl.)"
+                ]
+              },
+              {
+                "cells": [
+                  "Departing",
+                  "30/04/2020"
+                ]
+              },
+              {
+                "cells": [
+                  "Returning",
+                  "30/04/2020"
+                ]
+              },
+              {
+                "cells": [
+                  "Travellers",
+                  "2"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2243000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Clicks on Search button",
+            "match": {
+              "location": "com.github.frostyaxe.cucumber.stepdefs.ExpediaFlightSearchStepDefs.\u003cinit\u003e(ExpediaFlightSearchStepDefs.java:104)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User must be landed on the results page",
+            "match": {
+              "location": "com.github.frostyaxe.cucumber.stepdefs.ExpediaFlightSearchStepDefs.\u003cinit\u003e(ExpediaFlightSearchStepDefs.java:110)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Expedia Flight Search",
+    "description": "  \tThis feature file will test the different functionalities of the Expedia Flight Search Module.",
+    "id": "expedia-flight-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ExpediaFlightSearch.feature",
+    "tags": []
+  },
+  {
+    "line": 7,
+    "elements": [
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12397000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on Expedia Homepage",
+            "match": {
+              "location": "com.github.frostyaxe.cucumber.stepdefs.ExpediaFlightSearchStepDefs.\u003cinit\u003e(ExpediaFlightSearchStepDefs.java:37)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-16T09:24:06.351Z",
+        "line": 13,
+        "name": "Hotel Search with correct details",
+        "description": "",
+        "id": "expedia-hotel-search;hotel-search-with-correct-details",
+        "after": [
+          {
+            "result": {
+              "duration": 635000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.github.frostyaxe.cucumber.hooks.ServiceHooks.\u003cinit\u003e(ServiceHooks.java:16)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is able to see the Expedia HomePage",
+            "match": {
+              "location": "com.github.frostyaxe.cucumber.stepdefs.ExpediaFlightSearchStepDefs.\u003cinit\u003e(ExpediaFlightSearchStepDefs.java:54)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 252000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on Hotel Tab button",
+            "match": {
+              "location": "com.github.frostyaxe.cucumber.stepdefs.ExpediaHotelSearchStepDefs.\u003cinit\u003e(ExpediaHotelSearchStepDefs.java:32)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1818000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters the correct data in the form fields",
+            "match": {
+              "location": "com.github.frostyaxe.cucumber.stepdefs.ExpediaHotelSearchStepDefs.\u003cinit\u003e(ExpediaHotelSearchStepDefs.java:38)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "goingTo",
+                  "Mumbai (BOM-Chhatrapati Shivaji Intl.)"
+                ]
+              },
+              {
+                "cells": [
+                  "checkIn",
+                  "30/04/2020"
+                ]
+              },
+              {
+                "cells": [
+                  "checkOut",
+                  "01/05/2020"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1845000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Clicks on the search button",
+            "match": {
+              "location": "com.github.frostyaxe.cucumber.stepdefs.ExpediaHotelSearchStepDefs.\u003cinit\u003e(ExpediaHotelSearchStepDefs.java:50)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10008000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User must be navigated to the results page",
+            "match": {
+              "location": "com.github.frostyaxe.cucumber.stepdefs.ExpediaHotelSearchStepDefs.\u003cinit\u003e(ExpediaHotelSearchStepDefs.java:54)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Expedia Hotel Search",
+    "description": "\t\t     Hotel Search functionality is getting tested of the Expedia Web Application",
+    "id": "expedia-hotel-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ExpediaHotelSearch.feature",
+    "tags": []
+  }
+]
